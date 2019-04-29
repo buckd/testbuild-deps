@@ -1,0 +1,13 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\temp\dbuck\testbuild-deps'
+
+[projects.helloworld]
+path = 'src\helloworld.lvproj'
+
+[[build.steps]]
+name = 'helloworld spec'
+type = 'lvBuildSpec'
+project = '{helloworld}'
+target = 'My Computer'
+build_spec = 'helloworld'
