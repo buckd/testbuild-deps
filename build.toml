@@ -6,13 +6,6 @@ archive_location = '\\nirvana\temp\dbuck\testbuild-deps'
 path = 'src\helloworld.lvproj'
 
 [[build.steps]]
-name = 'helloworld spec'
-type = 'lvBuildSpec'
-project = '{helloworld}'
-target = 'My Computer'
-build_spec = 'helloworld'
-
-[[build.steps]]
 name = 'PPL spec'
 type = 'lvBuildSpec'
 project = '{helloworld}'

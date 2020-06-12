@@ -53,21 +53,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/win</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5B6A9CA1-B66A-4E00-9A4E-A630A5AD8760}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPL.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/PPL.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/win/PPL.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/win</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{95531B31-110B-4F40-8390-1127FE6D4B78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF5C3456-6681-400A-B77C-C28358BC2993}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PPL.lvlib</Property>
