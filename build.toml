@@ -11,3 +11,10 @@ type = 'lvBuildSpec'
 project = '{helloworld}'
 target = 'My Computer'
 build_spec = 'helloworld'
+
+[[build.steps]]
+name = 'PPL spec'
+type = 'lvBuildSpec'
+project = '{helloworld}'
+target = 'My Computer'
+build_spec = 'PPL'
